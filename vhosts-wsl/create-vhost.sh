@@ -7,7 +7,7 @@ hosts_backup_file="$PWD/.backupHostsFile"
 last_ip_file="$PWD/.last_ip"
 legacy_apache_config="$PWD/.legacyApacheConfig" #this file is a main backup of the first file edited of the apache_config_file var
 legacy_windows_hosts="$PWD/.legacyWindowsHosts" #this file is a main backup of the first file edited of the windws_hosts_file var
-vhost_domain="test"
+vhost_domain="test" #must be edited to your domain of preference
 current_ip="$(hostname -I)"
 if [ -f $last_ip_file ]; then
 	last_ip=$(sed -e "1s/*/=/g" $last_ip_file)
