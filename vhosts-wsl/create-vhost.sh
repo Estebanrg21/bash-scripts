@@ -1,7 +1,7 @@
 #! /bin/bash
 
-apache_config_file="/etc/apache2/sites-available/default-folder.conf"
-apache_backup_file="$PWD/.backupApacheConfig"
+apache_config_file="/etc/apache2/sites-available/default-folder.conf" #config file of virtual hosts on apache2
+apache_backup_file="$PWD/.backupApacheConfig" 
 windows_hosts_file="/mnt/c/Windows/System32/drivers/etc/hosts"
 hosts_backup_file="$PWD/.backupHostsFile"
 last_ip_file="$PWD/.last_ip"
