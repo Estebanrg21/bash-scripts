@@ -69,4 +69,4 @@ if [ -d $newdir ] && [ ! -z $newdir ]; then
 else
 	echo  "Fatal error, Directory $newdir was not found"
 fi
-#must be executed under a wsl host ran as admin and with this syntax: sudo bash create_vhost.sh name_of_vhost
+#must be executed under a wsl host run as admin and with this syntax: sudo bash create_vhost.sh name_of_vhost
