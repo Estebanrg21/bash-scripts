@@ -15,4 +15,4 @@ else
 	echo "name of vhost cannot be null"
 fi
 
-#must be executed under a wsl host ran as admin and with this syntax: sudo bash delete_vhost.sh folder_to_delete domain_of_vhost
+#must be executed under a wsl host run as admin and with this syntax: sudo bash delete_vhost.sh folder_to_delete domain_of_vhost
